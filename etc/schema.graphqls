@@ -1,0 +1,47 @@
+type Query {
+    getProductHaryo(
+        search: String
+        filter: ProductFilterInput
+        sort: ProductSortInput
+        pageSize: Int
+        currentPage: Int
+    ): ProductHaryoOutput @resolver(class: "\\Exam\\Oms\\Model\\Resolver\\ProductHaryo")
+}
+
+input ProductFilterInput {
+    entity_id: FilterTypeInput
+    type_id: FilterTypeInput
+    name: FilterTypeInput
+    sku: FilterTypeInput
+}
+
+input ProductSortInput {
+    name: SortEnum
+    price: SortEnum
+}
+
+type ProductHaryoOutput {
+    items: [ProductHaryoItem]
+    page_info: PageInfo
+    total_count: Int
+}
+
+type ProductHaryoItem {
+    entity_id: Int
+    sku: String
+    name: String
+    price: String
+    status: Int
+    description: String
+    short_description: String
+    weight: Float
+    dimension_package_height: Float
+    dimension_package_length: Float
+    dimension_package_width: Float
+}
+
+type PageInfo {
+    current_page: Int
+    page_size: Int
+    total_pages: Int
+}
