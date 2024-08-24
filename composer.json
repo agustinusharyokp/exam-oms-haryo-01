@@ -23,7 +23,7 @@
     "version": "1.0.0",
     "minimum-stability": "dev",
     "replace": {
-        "agustinusharyokp/exam-oms-haryo-01": "self.version"
+        "icube-mage/exam-oms-haryo-01": "self.version"
     },
     "autoload": {
         "files": [
