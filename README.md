@@ -8,10 +8,10 @@ composer config repositories.haryo-exam git git@github.com:agustinusharyokp/exam
 
 ## Install
 ```
-composer require icube-mage/exam-oms-haryo-01:dev-exam-oms
+composer require agustinusharyokp/exam-oms-haryo-01:dev-exam-oms
 ```
 
 ## Update Repo
 ```
-composer update icube-mage/exam-oms-haryo-01
+composer update agustinusharyokp/exam-oms-haryo-01
 ```
