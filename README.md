@@ -3,7 +3,7 @@ Add On Module for Exam OMS
 
 ## Add Repo
 ```
-composer config repositories.haryo-ajargql git git@github.com:agustinusharyokp/haryo-ajargql.git
+composer config repositories.haryo-exam git git@github.com:agustinusharyokp/haryo-ajargql.git
 ```
 
 ## Install
