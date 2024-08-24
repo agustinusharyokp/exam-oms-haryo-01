@@ -32,5 +32,11 @@
         "psr-4": {
             "Exam\\Oms\\": "src/exam-oms"
         }
+    },
+    "repositories": {
+        "haryo-exam": {
+            "type": "git",
+            "url": "git@github.com:agustinusharyokp/exam-oms-haryo-01.git"
+        }
     }
 }
