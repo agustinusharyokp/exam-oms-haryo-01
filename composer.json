@@ -1,13 +1,13 @@
 {
-    "name": "icube-mage/haryo-exam",
+    "name": "agustinusharyokp/exam-oms-haryo-01",
     "type": "magento2-module",
     "authors": [
         {
-            "name": "agustinusharyokp",
-            "email": "agustinus.haryo@sirclo.com"
+            "name": "bramantyoaryo",
+            "email": "bramantyo.aryo@sirclo.com"
         }
     ],
-    "description": "Exam OMS",
+    "description": "BE Module Examp",
     "require": {
         "php": ">=8.0"
     },
@@ -23,7 +23,7 @@
     "version": "1.0.0",
     "minimum-stability": "dev",
     "replace": {
-        "icube-mage/exam-oms-haryo-01": "self.version"
+        "agustinusharyokp/exam-oms": "self.version"
     },
     "autoload": {
         "files": [
@@ -31,12 +31,6 @@
         ],
         "psr-4": {
             "Exam\\Oms\\": "src/exam-oms"
-        }
-    },
-    "repositories": {
-        "haryo-exam": {
-            "type": "git",
-            "url": "git@github.com:agustinusharyokp/exam-oms-haryo-01.git"
         }
     }
 }
