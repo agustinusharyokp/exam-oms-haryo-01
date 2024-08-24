@@ -1,0 +1,36 @@
+{
+    "name": "icube-mage/ajar-gql",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "agustinusharyokp",
+            "email": "agustinus.haryo@sirclo.com"
+        }
+    ],
+    "description": "Exam OMS",
+    "require": {
+        "php": ">=8.0"
+    },
+    "homepage": "https://github.com/agustinusharyokp/exam-oms-haryo-01",
+    "keywords": [
+        "magento",
+        "magento2"
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "replace": {
+        "agustinusharyokp/exam-oms": "self.version"
+    },
+    "autoload": {
+        "files": [
+            "src/exam-oms/registration.php"
+        ],
+        "psr-4": {
+            "Exam\\Oms\\": "src/exam-oms"
+        }
+    }
+}

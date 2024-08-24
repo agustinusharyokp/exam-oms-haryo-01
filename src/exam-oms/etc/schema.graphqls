@@ -1,11 +1,11 @@
 type Query {
-    getProductHaryo(
+    ProductHaryo(
         search: String
         filter: ProductFilterInput
         sort: ProductSortInput
         pageSize: Int
         currentPage: Int
-    ): ProductHaryoOutput @resolver(class: "\\Exam\\Oms\\Model\\Resolver\\ProductHaryo")
+    ): ProductHaryoOutput @resolver(class: "\\Exam\\OMS\\Model\\Resolver\\ProductHaryo")
 }
 
 input ProductFilterInput {

@@ -1,8 +1,17 @@
-# EXAM OMS
+# Swift OMS Sentry
+Add On Module for Exam OMS
 
-Create Graphql Get data product
+## Add Repo
+```
+composer config repositories.haryo-ajargql git git@github.com:agustinusharyokp/haryo-ajargql.git
+```
 
+## Install
+```
+composer require icube-mage/exam-oms-haryo-01:dev-oms-exam
+```
 
- 
-Instalation:
-    on the project root, run this `git clone git@github.com:agustinusharyokp/exam-oms-haryo-01.git app/code/Exam/Oms`
+## Update Repo
+```
+composer update icube-mage/exam-oms-haryo-01
+```
