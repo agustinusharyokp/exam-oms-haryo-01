@@ -5,7 +5,7 @@ type Query {
         sort: ProductSortInput
         pageSize: Int
         currentPage: Int
-    ): ProductHaryoOutput @resolver(class: "\\Exam\\OMS\\Model\\Resolver\\ProductHaryo")
+    ): ProductHaryoOutput @resolver(class: "\\Exam\\Oms\\Model\\Resolver\\ProductHaryo")
 }
 
 input ProductFilterInput {
