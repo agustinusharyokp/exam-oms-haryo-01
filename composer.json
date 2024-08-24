@@ -1,5 +1,5 @@
 {
-    "name": "agustinusharyokp/haryo-exam",
+    "name": "icube-mage/haryo-exam",
     "type": "magento2-module",
     "authors": [
         {
@@ -23,7 +23,7 @@
     "version": "1.0.0",
     "minimum-stability": "dev",
     "replace": {
-        "agustinusharyokp/exam-oms": "self.version"
+        "agustinusharyokp/exam-oms-haryo-01": "self.version"
     },
     "autoload": {
         "files": [
